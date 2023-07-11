@@ -9,16 +9,15 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 ## Releases
 
-AmongUs Version: **2022.12.14**
+AmongUs Version: **2023.3.28**
+ Click [here](https://github.com/tukasa0001/TownOfHost/releases/latest) for the latest version of Fork original TownOfHost.
 
-**Latest Version: [Here](https://github.com/tukasa0001/TownOfHost/releases/latest)**
-
-Old Versions: [Here](https://github.com/tukasa0001/TownOfHost/releases)
+**Latest Version: [Here](https://github.com/sansaaaaai/Revolutionary-host-roles/releases/latest)**
 
 ## Features
 
 This mod only needs to be installed on the host's client to work, and works regardless of whether or not other client mods have been installed, and regardless of the type of terminal.<br>
-Unlike mods that use custom servers, there is no need to add servers by editing URLs or files.<br>
+You can enjoy additional positions simply by joining a room of hosts who have installed RevolutionaryHostRoles.<br>
 
 However, please note that the following restrictions apply.<br>
 
@@ -102,7 +101,7 @@ Also, you can break lines by writing `\n` in the sentence like `tag:line breaks 
 
 #### Special Tags
 There are special tags that can be sent automatically according to the scene.<br>
-For example: `welcome:This room is using TownOfHost.`
+For example: `welcome:This room is using RevolutionaryHostRoles.`
 
 | Tag            | Scene                             | Target                     |
 | -------------- | --------------------------------- | -------------------------- |
@@ -196,15 +195,17 @@ Example:
 | [EvilTracker](#EvilTracker)         | [Dictator](#Dictator)             | [Egoist](#Egoist)                 |           |
 | [Evil Watcher](#Watcher)            | [Doctor](#Doctor)                 | [Executioner](#Executioner)       |           |
 | [FireWorks](#FireWorks)             | [Lighter](#Lighter)               | [Jackal](#Jackal)                 |           |
-| [Mare](#Mare)                       | [Mayor](#Mayor)                   | [Jester](#Jester)                 |           |
-| [Puppeteer](#Puppeteer)             | [Nice Watcher](#Watcher)          | [Lovers](#Lovers)                 |           |
-| [SerialKiller](#SerialKiller)       | [SabotageMaster](#SabotageMaster) | [Opportunist](#Opportunist)       |           |
-| [Sniper](#Sniper)                   | [Seer](#Seer)                     | [Terrorist](#Terrorist)           |           |
-| [TimeThief](#TimeThief)             | [Sheriff](#Sheriff)               | [SchrodingerCat](#SchrodingerCat) |           |
-| [Vampire](#Vampire)                 | [Snitch](#Snitch)                 |                                   |           |
+| [Mare](#Mare)                       | [Mayor](#Mayor)                   | [Jackalfellow](#Jackalfellow)                 |           |
+| [Puppeteer](#Puppeteer)             | [Nice Watcher](#Watcher)          | [Jester](#Jester)                 |           |
+| [SerialKiller](#SerialKiller)       | [SabotageMaster](#SabotageMaster) | [Lovers](#Lovers)                 |           |
+| [Sniper](#Sniper)                   | [Seer](#Seer)                     | [Opportunist](#Opportunist)       |           |
+| [TimeThief](#TimeThief)             | [Sheriff](#Sheriff)               | [Terrorist](#Terrorist)           |           |
+| [Vampire](#Vampire)                 | [Snitch](#Snitch)                 | [SchrodingerCat](#SchrodingerCat) |           |
 | [Warlock](#Warlock)                 | [SpeedBooster](#SpeedBooster)     |                                   |           |
 | [Witch](#Witch)                     | [Beartrap](#Beartrap)             |                                   |           |
-| [Mafia](#Mafia)                     |                                   |                                   |           |
+| [Mafia](#Mafia)                     | [Insender](#Insender)|                                   |           |
+| [Tricker](#Tricker)                 |                                   |                                   |           |
+| [Reloader](#Reloader)               |                                   |                                   |           |
 | [Madmate](#Madmate)                 |                                   |                                   |           |
 | [MadGuardian](#MadGuardian)         |                                   |                                   |           |
 | [MadSnitch](#MadSnitch)             |                                   |                                   |           |
@@ -426,6 +427,39 @@ Basis : Impostor<br>
 
 The Mafias can initially use vents and sabotage, but cannot kill (still have a button).<br>
 They will be able to kill after all Impostors except them are all gone.<br>
+
+
+## Tricker
+
+Team : Impostors<br>
+Basis : Impostor<br>
+
+Unique ability, tricks to make players disappear.<br>
+Shape shifting can be used to turn trick kills on and off.<br>
+
+#### Game Options
+
+| Name               |           |
+| ------------------ | ----------------- |
+| Tricker Kill Cooldown(s)
+|Number of times you can do the trick
+
+
+## Reloader
+
+Team : Impostors<br>
+Basis : Impostor<br>
+
+Unique ability, reloading, to reduce the kill cooldown to a set value.<br>
+The number of times and cool time can be changed by setting.<br>
+
+#### Game Options
+
+| Name               |           |
+| ------------------ | ----------------- |
+| Reloader Kill Cooldown(s)
+|Can Reload Count
+|KillCooldown after reload
 
 
 ## Madmate
@@ -713,6 +747,14 @@ the word contains prohibited characters
 | Freeze Duration |
 
 
+### Insender
+
+Team : Crewmates<br>
+Basis : Crewmate<br>
+
+Unlike baits, incenders "conduct their own" meetings when they are killed.
+
+
 ## Neutral
 
 #### Settings
@@ -821,6 +863,23 @@ Crewmates may still win in this case by completing their tasks. Jackal and Impos
 | Can Sabotage        |
 | Has Impostor Vision |
 
+
+### Jacalfellow
+
+Team : Neutral(Jackal)<br>
+Basis : Crewmate<br>
+
+Although it is a crew decision, I side with the jackals.<br>
+※A jackal camp version of the so-called Mad Mate.<br>
+Vent can be used, no task. One ability can be given by setting.<br>
+Vent can be used, no task. One ability can be given by setting.<br>
+### Game Options
+
+| Name                |
+| ------------------- |
+| Vent Cooldown
+| Can See Jackal
+| Jackal Fellow's Special Ability
 ### Jester
 
 Team : Neutral(Solo)<br>
